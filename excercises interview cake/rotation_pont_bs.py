@@ -1,20 +1,3 @@
-# p r s t a b c d
-
-
-# def find_rotation_point(arr_words):
-#     left = 0
-#     right = len(arr_words)-1
-#
-#
-#     while left < right:
-#         mid_point = left + (right - left) // 2
-#         if arr_words[mid_point] >= arr_words[left]:
-#             left = mid_point
-#         else:
-#             right = mid_point
-#
-#         if left + 1 == right:
-#             return mid_point
 
 def find_rotation_point(words):
     first_word = words[0]
@@ -42,3 +25,26 @@ def find_rotation_point(words):
 
 words = ['k', 'v', 'a', 'b', 'c', 'd', 'e', 'g', 'i']
 print(find_rotation_point(words))
+
+
+# k m n o p q a b c d
+
+
+def find_rotation_point_mine(words):
+    left = 0
+    right = len(words)-1
+    while left < right:
+        mid_point = ((right - left) + left) // 2
+        if words[mid_point] >= words[0]:
+            left = mid_point
+
+        elif words[mid_point] <= words[0]:
+            right = mid_point
+        # when they meet
+        if left+1 == right:
+            return right
+    print()
+
+
+words = ['k', 'v', 'a', 'b', 'c', 'd', 'e', 'g', 'i']
+print(find_rotation_point_mine(words))
