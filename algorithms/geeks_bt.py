@@ -32,7 +32,7 @@ def insert(root, node):
 def printInorder(root):
     if root:
         # First recur on left child
-        printInorder(root.left)
+        (root.left)
 
         # then print the data of node
         print(root.val),
