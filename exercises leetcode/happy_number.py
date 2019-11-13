@@ -32,3 +32,15 @@ class Solution:
                 hash_set.add(sum)
                 n = sum_n
         return True
+
+
+class Solution:
+    def isHappy(self, n: int) -> bool:
+        visited = set()
+        while 1:
+            if n == 1:
+                return True
+            n = sum(int(c) ** 2 for c in str(n))
+            if n in visited:
+                return False
+            visited.add(n)

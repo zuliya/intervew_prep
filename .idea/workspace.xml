@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df8efba4-a73d-4007-b148-40da71a800dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercises interview cake/largest_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercises interview cake/resurs_str.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercises interview cake/string_permutation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises leetcode/all.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises leetcode/delete_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises leetcode/fibonaci.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises leetcode/find_square_root.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises leetcode/happy_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises leetcode/string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_algorithms/binary_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_algorithms/linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_algorithms/mine_bt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/intervew_prep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/intervew_prep.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excercises interview cake/island.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interiviews/ms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/geeks_bt.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/geeks_bt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises leetcode/happy_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises leetcode/happy_number.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.resurs_str">
+  <component name="RunManager" selected="Python.ms">
     <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="intervew_prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="find_duplicates" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ms" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="intervew_prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,12 +131,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interiviews" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises leetcode/find_duplicates.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interiviews/ms.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ms" />
         <item itemvalue="Python.resurs_str" />
         <item itemvalue="Python.fibonaci" />
         <item itemvalue="Python.binary_search" />
         <item itemvalue="Python.binary_search_mine" />
-        <item itemvalue="Python.find_duplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +204,14 @@
       <workItem from="1572100024898" duration="438000" />
       <workItem from="1572204801241" duration="307000" />
       <workItem from="1572295878759" duration="6479000" />
-      <workItem from="1572610936109" duration="1686000" />
+      <workItem from="1572610936109" duration="2201000" />
+      <workItem from="1572730753978" duration="7000" />
+      <workItem from="1572908137339" duration="231000" />
+      <workItem from="1573131723965" duration="10000" />
+      <workItem from="1573131737953" duration="591000" />
+      <workItem from="1573145539621" duration="50000" />
+      <workItem from="1573145609651" duration="110000" />
+      <workItem from="1573481043998" duration="1552000" />
     </task>
     <servers />
   </component>
@@ -267,10 +260,11 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/intervew_prep$find_square_root.coverage" NAME="find_square_root Coverage Results" MODIFIED="1572296584284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises leetcode" />
     <SUITE FILE_PATH="coverage/intervew_prep$binary_tree.coverage" NAME="binary_tree Coverage Results" MODIFIED="1568925125432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
-    <SUITE FILE_PATH="coverage/intervew_prep$resurs_str.coverage" NAME="resurs_str Coverage Results" MODIFIED="1572611202358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercises interview cake" />
+    <SUITE FILE_PATH="coverage/intervew_prep$resurs_str.coverage" NAME="resurs_str Coverage Results" MODIFIED="1573481092586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercises interview cake" />
     <SUITE FILE_PATH="coverage/intervew_prep$fibonaci.coverage" NAME="fibonaci Coverage Results" MODIFIED="1572368670976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises leetcode" />
     <SUITE FILE_PATH="coverage/intervew_prep$cracking_coding_interview_easy.coverage" NAME="cracking_coding_interview_easy Coverage Results" MODIFIED="1569842350503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises leetcode" />
     <SUITE FILE_PATH="coverage/intervew_prep$binary_search_mine.coverage" NAME="binary_search_mine Coverage Results" MODIFIED="1572352363837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
+    <SUITE FILE_PATH="coverage/intervew_prep$ms.coverage" NAME="ms Coverage Results" MODIFIED="1573481097523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interiviews" />
     <SUITE FILE_PATH="coverage/intervew_prep$linked_list.coverage" NAME="linked_list Coverage Results" MODIFIED="1569841549533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_algorithms" />
     <SUITE FILE_PATH="coverage/intervew_prep$remove_duplicate_from_sorted.coverage" NAME="remove_duplicate_from_sorted Coverage Results" MODIFIED="1568925374598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises leetcode" />
     <SUITE FILE_PATH="coverage/intervew_prep$find_duplicates.coverage" NAME="find_duplicates Coverage Results" MODIFIED="1572296761943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises leetcode" />
